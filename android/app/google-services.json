@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "912374733495",
+    "firebase_url": "https://appointment-1ce4a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "appointment-1ce4a",
+    "storage_bucket": "appointment-1ce4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912374733495:android:38f5f6d87e1a461eac0b32",
+        "android_client_info": {
+          "package_name": "com.example.appointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912374733495-hg47baa45aha5uoh65n2hj95870co7bb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appointment",
+            "certificate_hash": "0887d8873963ee4cd5d895e66a7c204e81b7ca0d"
+          }
+        },
+        {
+          "client_id": "912374733495-lfva80g6n1h69hduis24k279rv0u7s45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAKYVIHGGpYkuUOF_FZBylx1jKJX_6fSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912374733495-lfva80g6n1h69hduis24k279rv0u7s45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
