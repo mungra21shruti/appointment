@@ -72,18 +72,19 @@ class _addState extends State<add> {
             ElevatedButton(
                 onPressed: () async {
                   DatabaseReference ref =
-                      FirebaseDatabase.instance.ref("Data/$currentItem").push();
-                  String? id = ref.key;
+                      FirebaseDatabase.instance.ref("data").push();
+
                   await ref
-                      .set({"id": id, "prof.Name": Name.text}).then((value) {
-                    Navigator.push(context, MaterialPageRoute(
+                      .set({"profname": Name.text, "course": currentItem}).then(
+                          (value) {
+                    Navigator.pushReplacement(context, MaterialPageRoute(
                       builder: (context) {
-                        return addstud(currentItem);
+                        return addstud();
                       },
                     ));
                   });
                 },
-                child: Text("ADD STUDENT"))
+                child: Text("add data"))
           ],
         ),
       )),

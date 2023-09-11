@@ -1,4 +1,6 @@
 import 'package:appointment/addstudent.dart';
+import 'package:appointment/interview.dart';
+import 'package:appointment/profile.dart';
 import 'package:flutter/material.dart';
 
 class homepage extends StatefulWidget {
@@ -10,13 +12,7 @@ class homepage extends StatefulWidget {
 
 class _homepageState extends State<homepage> {
   int _selectedIndex = 1;
-  static const List<Widget> _widgetOptions = [
-    Text('Home Page',
-        style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold)),
-    add(),
-    Text('Profile Page',
-        style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold)),
-  ];
+  static const List<Widget> _widgetOptions = [interview(), add(), profil()];
 
   void _onItemTapped(int index) {
     setState(() {
